@@ -43,5 +43,13 @@
   "RaceClass": {
     "dataSource": "db",
     "public": true
+  },
+  "Racer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Series": {
+    "dataSource": "db",
+    "public": true
   }
 }

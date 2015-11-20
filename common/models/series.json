@@ -1,0 +1,26 @@
+{
+  "name": "Series",
+  "plural": "Series",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "seriesName": {
+      "type": "string",
+      "required": true
+    },
+    "seriesYear": {
+      "type": "number",
+      "required": true
+    },
+    "seriesSeason": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
