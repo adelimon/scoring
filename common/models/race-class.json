@@ -1,0 +1,23 @@
+{
+  "name": "RaceClass",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "minDisplacement": {
+      "type": "number"
+    },
+    "maxDisplacement": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
