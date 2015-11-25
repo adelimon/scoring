@@ -1,0 +1,32 @@
+{
+  "name": "RaceResult",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "riderId": {
+      "type": "string",
+      "required": true
+    },
+    "Place": {
+      "type": "number",
+      "required": true
+    },
+    "classId": {
+      "type": "string",
+      "required": true
+    },
+    "lapTime": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
