@@ -14,46 +14,46 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "scoringDb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": false
   },
   "Event": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   },
   "ScoredEvent": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   },
   "RaceClass": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   },
   "Racer": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   },
   "Series": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   },
   "RaceResult": {
-    "dataSource": "db",
+    "dataSource": "scoringDb",
     "public": true
   }
 }

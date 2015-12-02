@@ -6,16 +6,16 @@
     "validateUpsert": true
   },
   "properties": {
-    "riderId": {
-      "type": "string",
+    "racerId": {
+      "type": "number",
       "required": true
     },
-    "Place": {
+    "place": {
       "type": "number",
       "required": true
     },
     "classId": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "lapTime": {
@@ -26,7 +26,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "racer": {
+      "type": "hasOne",
+      "model": "Racer",
+      "foreignKey": ""
+    },
+    "class": {
+      "type": "hasOne",
+      "model": "RaceClass",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
